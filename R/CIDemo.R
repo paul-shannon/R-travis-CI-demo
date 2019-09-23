@@ -63,6 +63,10 @@ setMethod('getProjectName', 'CIDemo',
 #' @param obj An object of class CIDemo
 #' @param x numeric
 #'
+#' @exampls
+#'   ciDemo <- CIDemo("foo")
+#'   addTwo(40)
+#'
 #' @export
 
 setMethod('addTwo', 'CIDemo',

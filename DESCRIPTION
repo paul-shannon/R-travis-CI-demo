@@ -1,7 +1,7 @@
 Package: CIDemo
 Type: Package
 Title: A Travis-CI demo packages
-Version: 1.0.0
+Version: 1.0.1
 Date: 2019-09-23
 Author: Paul Shannon
 Maintainer: <paul.thurmond.shannon@gmail.com>
