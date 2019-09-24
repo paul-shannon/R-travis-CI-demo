@@ -1,8 +1,8 @@
 Package: CIDemo
 Type: Package
 Title: A Travis-CI demo packages
-Version: 1.0.8
-Date: 2019-09-23
+Version: 1.0.9
+Date: 2019-09-24
 Author: Paul Shannon
 Maintainer: <paul.thurmond.shannon@gmail.com>
 Depends: R (>= 3.5.0), randomForest

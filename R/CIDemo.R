@@ -1,6 +1,6 @@
 #' @importFrom methods new
 #' @import BiocGenerics
-#' @import randomForest
+#' @importFrom randomForest randomForest
 #'
 #' @title CIDemo
 #------------------------------------------------------------------------------------------------------------------------
@@ -64,9 +64,9 @@ setMethod('getProjectName', 'CIDemo',
 #' @param obj An object of class CIDemo
 #' @param x numeric
 #'
-#' @exampls
+#' @examples
 #'   ciDemo <- CIDemo("foo")
-#'   addTwo(40)
+#'   addTwo(ciDemo, 40)
 #'
 #' @export
 

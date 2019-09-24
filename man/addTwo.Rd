@@ -16,3 +16,8 @@
 \description{
 add two to the supplied integer
 }
+\examples{
+  ciDemo <- CIDemo("foo")
+  addTwo(ciDemo, 40)
+
+}
