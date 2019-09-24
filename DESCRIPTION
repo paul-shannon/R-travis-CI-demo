@@ -6,7 +6,7 @@ Date: 2019-09-24
 Author: Paul Shannon
 Maintainer: <paul.thurmond.shannon@gmail.com>
 Depends: R (>= 3.5.0), randomForest
-Imports: methods, BiocGenerics
+Imports: methods, BiocGenerics, devtools
 Suggests: RUnit
 Description: A very simple package with which to learn git/travis-ci basics.
 License: GPL
