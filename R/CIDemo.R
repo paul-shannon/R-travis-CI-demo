@@ -1,5 +1,6 @@
 #' @importFrom methods new
 #' @import BiocGenerics
+#' @import randomForest
 #'
 #' @title CIDemo
 #------------------------------------------------------------------------------------------------------------------------
