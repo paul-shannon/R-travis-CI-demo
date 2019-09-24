@@ -5,6 +5,7 @@ runTests <- function()
 {
    test_constructor()
    test_methods()
+   test_localWebBrowserAvailability()
 
 } # runTests
 #------------------------------------------------------------------------------------------------------------------------
@@ -28,6 +29,16 @@ test_methods = function ()
   checkEquals(addTwo(ciDemo, -2), 0)
 
 } # test_methods
+#------------------------------------------------------------------------------------------------------------------------
+test_localWebBrowserAvailability = function ()
+{
+  message(sprintf("--- test_localWebBrowserAvailability"))
+
+  browseURL("http://google.com")
+  Sys.sleep(10)
+
+
+} # test_localWebBrowserAvailability
 #------------------------------------------------------------------------------------------------------------------------
 if(!interactive())
    runTests()
