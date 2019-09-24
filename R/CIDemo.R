@@ -1,6 +1,5 @@
 #' @importFrom methods new
 #' @import BiocGenerics
-#' @import devtools
 #' @importFrom randomForest randomForest
 #'
 #' @title CIDemo

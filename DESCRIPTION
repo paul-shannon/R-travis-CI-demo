@@ -1,12 +1,12 @@
 Package: CIDemo
 Type: Package
 Title: A Travis-CI demo packages
-Version: 1.0.12
+Version: 1.0.13
 Date: 2019-09-24
 Author: Paul Shannon
 Maintainer: <paul.thurmond.shannon@gmail.com>
 Depends: R (>= 3.5.0), randomForest
-Imports: methods, BiocGenerics, devtools
+Imports: methods, BiocGenerics
 Suggests: RUnit
 Description: A very simple package with which to learn git/travis-ci basics.
 License: GPL
